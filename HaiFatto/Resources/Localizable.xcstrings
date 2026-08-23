@@ -1,0 +1,545 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "general_cancel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cancelar" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Annulla" } }
+      }
+    },
+    "general_save" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Guardar" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Salva" } }
+      }
+    },
+    "general_delete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Eliminar" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Elimina" } }
+      }
+    },
+    "general_skip" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Skip" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Omitir" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Salta" } }
+      }
+    },
+    "home_empty_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No tasks yet" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aún no hay tareas" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nessun compito ancora" } }
+      }
+    },
+    "home_empty_subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add your first daily task and start building good habits!" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¡Añade tu primera tarea diaria y empieza a crear buenos hábitos!" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il tuo primo compito quotidiano e inizia a costruire buone abitudini!" } }
+      }
+    },
+    "home_add_first_task" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add Task" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Añadir Tarea" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi Compito" } }
+      }
+    },
+    "premium_upgrade_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Upgrade to Premium" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Actualiza a Premium" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Passa a Premium" } }
+      }
+    },
+    "premium_upgrade_message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unlock unlimited tasks, all widget sizes, and more!" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¡Desbloquea tareas ilimitadas, todos los tamaños de widget y más!" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sblocca compiti illimitati, tutte le dimensioni dei widget e altro!" } }
+      }
+    },
+    "premium_upgrade_button" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "View Plans" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ver Planes" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Vedi Piani" } }
+      }
+    },
+    "onboarding_welcome_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hai fatto?" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¿Lo hiciste?" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Hai fatto?" } }
+      }
+    },
+    "onboarding_welcome_subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Track your daily tasks and build better habits, one check at a time." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Rastrea tus tareas diarias y construye mejores hábitos, un paso a la vez." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Tieni traccia dei tuoi compiti quotidiani e costruisci abitudini migliori, un passo alla volta." } }
+      }
+    },
+    "onboarding_widgets_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Interactive Widgets" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Widgets Interactivos" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Widget Interattivi" } }
+      }
+    },
+    "onboarding_widgets_subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Complete tasks directly from your Home Screen without opening the app." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Completa tareas directamente desde tu pantalla de inicio sin abrir la app." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Completa i compiti direttamente dalla schermata Home senza aprire l'app." } }
+      }
+    },
+    "onboarding_ready_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Stay on Track" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mantente al día" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Resta in carreggiata" } }
+      }
+    },
+    "onboarding_ready_subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get reminders so you never forget your daily tasks." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Recibe recordatorios para que nunca olvides tus tareas diarias." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ricevi promemoria per non dimenticare mai i tuoi compiti quotidiani." } }
+      }
+    },
+    "onboarding_notifications_button" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enable Notifications" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Activar Notificaciones" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Attiva Notifiche" } }
+      }
+    },
+    "onboarding_get_started_button" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get Started" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Comenzar" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Iniziamo!" } }
+      }
+    },
+    "task_info_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task Info" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Info de Tarea" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Info Compito" } }
+      }
+    },
+    "task_name_placeholder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task name" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nombre de la tarea" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nome del compito" } }
+      }
+    },
+    "task_icon_label" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Icon" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Icono" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Icona" } }
+      }
+    },
+    "task_schedule_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Schedule" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Programación" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Programmazione" } }
+      }
+    },
+    "task_reset_interval_label" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reset Interval" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Intervalo de reinicio" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Intervallo di reset" } }
+      }
+    },
+    "task_reset_time_label" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reset Time" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hora de reinicio" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ora di reset" } }
+      }
+    },
+    "task_notifications_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notifications" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Notificaciones" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Notifiche" } }
+      }
+    },
+    "task_notifications_enable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enable Reminder" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Activar Recordatorio" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Attiva Promemoria" } }
+      }
+    },
+    "task_notifications_time" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reminder Time" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hora del Recordatorio" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ora del Promemoria" } }
+      }
+    },
+    "task_notifications_snooze_hint" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You can snooze notifications for 15 min or 1 hour." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Puedes posponer notificaciones por 15 min o 1 hora." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Puoi posticipare le notifiche di 15 min o 1 ora." } }
+      }
+    },
+    "task_photo_verification_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Photo Verification" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Verificación con Foto" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Verifica con Foto" } }
+      }
+    },
+    "task_requires_photo_label" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Require Photo" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Requerir Foto" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Richiedi Foto" } }
+      }
+    },
+    "task_camera_button" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Take Photo" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tomar Foto" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Scatta Foto" } }
+      }
+    },
+    "task_sharing_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sharing" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Compartir" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Condivisione" } }
+      }
+    },
+    "task_is_shared_label" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Share Task" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Compartir Tarea" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Condividi Compito" } }
+      }
+    },
+    "task_shared_with_placeholder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "User IDs (comma separated)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "IDs de usuario (separados por coma)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "ID utenti (separati da virgola)" } }
+      }
+    },
+    "task_premium_features_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Premium Features" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Funciones Premium" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Funzioni Premium" } }
+      }
+    },
+    "task_premium_locked_message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Photo verification and task sharing are available with Premium." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "La verificación con foto y compartir tareas están disponibles con Premium." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "La verifica con foto e la condivisione dei compiti sono disponibili con Premium." } }
+      }
+    },
+    "task_new_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New Task" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nueva Tarea" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nuovo Compito" } }
+      }
+    },
+    "task_edit_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Edit Task" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Editar Tarea" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Modifica Compito" } }
+      }
+    },
+    "task_delete_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete Task?" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¿Eliminar Tarea?" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Eliminare Compito?" } }
+      }
+    },
+    "task_delete_message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This action cannot be undone." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Esta acción no se puede deshacer." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Questa azione non può essere annullata." } }
+      }
+    },
+    "settings_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ajustes" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Impostazioni" } }
+      }
+    },
+    "settings_premium_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Premium" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Premium" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Premium" } }
+      }
+    },
+    "settings_premium_active" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Premium Active ✨" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Premium Activo ✨" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Premium Attivo ✨" } }
+      }
+    },
+    "settings_premium_marketing_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unlock Everything" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Desbloquea Todo" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sblocca Tutto" } }
+      }
+    },
+    "settings_premium_feature_unlimited" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unlimited tasks" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tareas ilimitadas" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Compiti illimitati" } }
+      }
+    },
+    "settings_premium_feature_widgets" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "All widget sizes" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Todos los tamaños de widgets" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Tutte le dimensioni widget" } }
+      }
+    },
+    "settings_premium_feature_snooze" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Snooze notifications" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Posponer notificaciones" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Posticipa notifiche" } }
+      }
+    },
+    "settings_premium_feature_sharing" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task sharing" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Compartir tareas" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Condivisione compiti" } }
+      }
+    },
+    "settings_premium_feature_photo" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Photo verification" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Verificación con foto" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Verifica con foto" } }
+      }
+    },
+    "settings_premium_feature_heatmap" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Completion heatmap" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mapa de calor de completados" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Mappa di completamento" } }
+      }
+    },
+    "settings_premium_restore" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Restore Purchases" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Restaurar Compras" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ripristina Acquisti" } }
+      }
+    },
+    "settings_notifications_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notifications" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Notificaciones" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Notifiche" } }
+      }
+    },
+    "settings_notifications_open_settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notification Settings" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ajustes de Notificaciones" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Impostazioni Notifiche" } }
+      }
+    },
+    "settings_data_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Data & Sync" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Datos y Sincronización" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Dati e Sincronizzazione" } }
+      }
+    },
+    "settings_data_manual_sync" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sync Now" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sincronizar Ahora" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sincronizza Ora" } }
+      }
+    },
+    "settings_data_last_sync" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Last sync" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Última sincronización" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ultima sincronizzazione" } }
+      }
+    },
+    "settings_heatmap_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "History" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Historial" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Cronologia" } }
+      }
+    },
+    "settings_heatmap_view" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Completion Heatmap" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mapa de Completados" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Mappa Completamenti" } }
+      }
+    },
+    "settings_about_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Acerca de" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Informazioni" } }
+      }
+    },
+    "settings_about_version" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Version" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Versión" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Versione" } }
+      }
+    },
+    "settings_about_privacy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Privacy Policy" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Política de Privacidad" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Informativa Privacy" } }
+      }
+    },
+    "settings_about_contact" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Contact Us" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Contáctanos" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Contattaci" } }
+      }
+    },
+    "settings_danger_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Danger Zone" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Zona de Peligro" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Zona Pericolosa" } }
+      }
+    },
+    "settings_danger_delete_all" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete All Data" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Eliminar Todos los Datos" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Elimina Tutti i Dati" } }
+      }
+    },
+    "settings_danger_alert_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete All Data?" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¿Eliminar Todos los Datos?" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Eliminare Tutti i Dati?" } }
+      }
+    },
+    "settings_danger_alert_message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This will permanently delete all your tasks and history. This cannot be undone." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Esto eliminará permanentemente todas tus tareas e historial. No se puede deshacer." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Questo eliminerà permanentemente tutti i tuoi compiti e la cronologia. Non può essere annullato." } }
+      }
+    },
+    "notification_action_complete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Complete" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Completar" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Completa" } }
+      }
+    },
+    "notification_action_snooze_15" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Snooze 15 min" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Posponer 15 min" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Posticipa 15 min" } }
+      }
+    },
+    "notification_action_snooze_60" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Snooze 1 hour" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Posponer 1 hora" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Posticipa 1 ora" } }
+      }
+    },
+    "notification_reminder_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hai fatto? 🔔" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¿Lo hiciste? 🔔" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Hai fatto? 🔔" } }
+      }
+    },
+    "notification_snooze_body" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reminder: you have a pending task!" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Recordatorio: ¡tienes una tarea pendiente!" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Promemoria: hai un compito in sospeso!" } }
+      }
+    },
+    "heatmap_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Completion History" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Historial de Completados" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Cronologia Completamenti" } }
+      }
+    },
+    "heatmap_total" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Total" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Total" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Totale" } }
+      }
+    },
+    "heatmap_current_streak" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Current Streak" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Racha Actual" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Serie Attuale" } }
+      }
+    },
+    "heatmap_longest_streak" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Longest Streak" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Racha Más Larga" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Serie Più Lunga" } }
+      }
+    },
+    "icon_picker_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose Icon" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Elegir Icono" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Scegli Icona" } }
+      }
+    },
+    "icon_picker_search" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search icons" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buscar iconos" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Cerca icone" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
