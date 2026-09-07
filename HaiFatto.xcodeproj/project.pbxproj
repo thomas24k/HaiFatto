@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C4492EAAFCDA7D58E04A17 /* TaskResetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF75B0DBC7932B30870F8A85 /* TaskResetService.swift */; };
+		03E5DB18EE7570255C543F91 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A216AA030B485500D232C34 /* TaskRowView.swift */; };
+		05443DDBB6B7E5B3AB36FE1E /* HaiFattoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EEA8CB76DF6980F8F01BCB /* HaiFattoWidgetBundle.swift */; };
+		2A5F70E948E89AAAFEC87C4C /* MediumWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C79AFF07BEEDDD1A9E1923 /* MediumWidget.swift */; };
+		32A8DFDCEE131CF0A2538521 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDA0E96F589DD89B9F0051 /* ConfettiView.swift */; };
+		3AB3B993B8968B6C599BA25C /* HaiFattoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABE5E1ED288B5CDC54F5BC /* HaiFattoApp.swift */; };
+		447804CD9EA2CC461FE0EABC /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292516094BAA4D1BF766CC2C /* CloudKitService.swift */; };
+		46A4F3681115404ED9CDBBEB /* WidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2E76E96939EB0E13EE274C /* WidgetViews.swift */; };
+		4CD49A1925FE561A235ABBA3 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA7454E6F4F80496A3E48A /* AppGroup.swift */; };
+		4F85F4F2C53638925D019CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78653D0DEE90EA19151F681B /* Assets.xcassets */; };
+		5D1BE2D9C38389DDE4EC3961 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC63187080A86B548E2483 /* TaskDetailView.swift */; };
+		755299348FF7508133A6033D /* HeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1AA67F69838DC64ADAA2C /* HeatmapView.swift */; };
+		8CEFE918B68B47985FA8DB4C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CF6474F8D1A7DEDE8F9FC /* UserProfile.swift */; };
+		8DEF225C4CC1075BFA362C8F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09463C0CCFA4A54734EFC26 /* SettingsView.swift */; };
+		9261288149476FCD86C359F3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDB4EE9902280A39DBEC36 /* OnboardingView.swift */; };
+		954D3DCB1B33E97B127FA57D /* HaiFattoTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F3264DD52E8F5CAA90F11 /* HaiFattoTask.swift */; };
+		A10B53DB41BBE2B65B06E9AA /* LargeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80900DF7E8781B9425A3F64 /* LargeWidget.swift */; };
+		A4225209C97A847A00FC9A71 /* HaiFattoWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 178B6C9C6C6A291A104BAD7A /* HaiFattoWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B46065ACB73881E8888BB564 /* ToggleTaskIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A768B2416A288802DB699B5 /* ToggleTaskIntent.swift */; };
+		B4EF7A0167E9F955B606472B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AC6568B4D03E59708F583 /* HomeView.swift */; };
+		BAE949AE3AEB9D1C0E11B016 /* IconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5E5CA0E2FA69551080AFE /* IconPickerView.swift */; };
+		C5830CA186209B5DC605E9A0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1DE0C79E5632494F26783C /* NotificationService.swift */; };
+		CB9FCD5524C96186D3CAABDE /* SharedTaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1495F078B81B00722793D34B /* SharedTaskStore.swift */; };
+		F7123DBA77CF30D4867418F6 /* SmallWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A30EE6D971A92948A5D59A7 /* SmallWidget.swift */; };
+		FDFF58062A54F87CDA719318 /* StoreKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2B92666BFC726BF2B2392 /* StoreKitService.swift */; };
+		FFA2B5EFBDE85398D2341101 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3C3D0C2642FFD9AA697CC75F /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10933D1E930C19F4D4054A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8539CDD217C4546C506A7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ACCF5283793572AA442AAD7;
+			remoteInfo = HaiFattoWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD590E3100F6B8FBBA2C5742 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A4225209C97A847A00FC9A71 /* HaiFattoWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04FDA0E96F589DD89B9F0051 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		07EEA8CB76DF6980F8F01BCB /* HaiFattoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaiFattoWidgetBundle.swift; sourceTree = "<group>"; };
+		1495F078B81B00722793D34B /* SharedTaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTaskStore.swift; sourceTree = "<group>"; };
+		15ABE5E1ED288B5CDC54F5BC /* HaiFattoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaiFattoApp.swift; sourceTree = "<group>"; };
+		169AC6568B4D03E59708F583 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		178B6C9C6C6A291A104BAD7A /* HaiFattoWidgetsExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HaiFattoWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		292516094BAA4D1BF766CC2C /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
+		2A30EE6D971A92948A5D59A7 /* SmallWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidget.swift; sourceTree = "<group>"; };
+		2BEA7454E6F4F80496A3E48A /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		3A216AA030B485500D232C34 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		3C3D0C2642FFD9AA697CC75F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		40C79AFF07BEEDDD1A9E1923 /* MediumWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidget.swift; sourceTree = "<group>"; };
+		59EDB4EE9902280A39DBEC36 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5DE5E5CA0E2FA69551080AFE /* IconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPickerView.swift; sourceTree = "<group>"; };
+		605CF6474F8D1A7DEDE8F9FC /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		608F3264DD52E8F5CAA90F11 /* HaiFattoTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaiFattoTask.swift; sourceTree = "<group>"; };
+		78653D0DEE90EA19151F681B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A768B2416A288802DB699B5 /* ToggleTaskIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTaskIntent.swift; sourceTree = "<group>"; };
+		7AFE5129F9D7ED7C64412205 /* HaiFatto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HaiFatto.entitlements; sourceTree = "<group>"; };
+		8F639259D569C65C02485CB1 /* HaiFattoWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HaiFattoWidgets.entitlements; sourceTree = "<group>"; };
+		A1DC9E08C4DF73E53E7660A8 /* HaiFatto.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HaiFatto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF1AA67F69838DC64ADAA2C /* HeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapView.swift; sourceTree = "<group>"; };
+		CF2E76E96939EB0E13EE274C /* WidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetViews.swift; sourceTree = "<group>"; };
+		D0FC63187080A86B548E2483 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		DD1DE0C79E5632494F26783C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		E80900DF7E8781B9425A3F64 /* LargeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeWidget.swift; sourceTree = "<group>"; };
+		EF75B0DBC7932B30870F8A85 /* TaskResetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskResetService.swift; sourceTree = "<group>"; };
+		F09463C0CCFA4A54734EFC26 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F8A2B92666BFC726BF2B2392 /* StoreKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DDFB3031373472C688990F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1AA67F69838DC64ADAA2C /* HeatmapView.swift */,
+				169AC6568B4D03E59708F583 /* HomeView.swift */,
+				59EDB4EE9902280A39DBEC36 /* OnboardingView.swift */,
+				F09463C0CCFA4A54734EFC26 /* SettingsView.swift */,
+				D0FC63187080A86B548E2483 /* TaskDetailView.swift */,
+				75D3D05BF78892AC56C65F87 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C060F33FB216842438478B4 = {
+			isa = PBXGroup;
+			children = (
+				504692674663218BE5278C83 /* HaiFatto */,
+				C2CC6C995502C0ABC32F283A /* HaiFattoWidgets */,
+				CC13A693E2A71908A4A3C3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504692674663218BE5278C83 /* HaiFatto */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE5129F9D7ED7C64412205 /* HaiFatto.entitlements */,
+				C94E71919AA399E63C04B8EE /* App */,
+				D53E4C89D6A0B145D85B4BBC /* Models */,
+				7B4F8A07893FCEE94272C164 /* Resources */,
+				6A523295C851A44018C5B3E9 /* Services */,
+				C04F91EF63DEB4143ED51927 /* Shared */,
+				0DDFB3031373472C688990F4 /* Views */,
+			);
+			path = HaiFatto;
+			sourceTree = "<group>";
+		};
+		6A523295C851A44018C5B3E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				292516094BAA4D1BF766CC2C /* CloudKitService.swift */,
+				DD1DE0C79E5632494F26783C /* NotificationService.swift */,
+				F8A2B92666BFC726BF2B2392 /* StoreKitService.swift */,
+				EF75B0DBC7932B30870F8A85 /* TaskResetService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		75D3D05BF78892AC56C65F87 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04FDA0E96F589DD89B9F0051 /* ConfettiView.swift */,
+				5DE5E5CA0E2FA69551080AFE /* IconPickerView.swift */,
+				3A216AA030B485500D232C34 /* TaskRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7B4F8A07893FCEE94272C164 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78653D0DEE90EA19151F681B /* Assets.xcassets */,
+				3C3D0C2642FFD9AA697CC75F /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C04F91EF63DEB4143ED51927 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA7454E6F4F80496A3E48A /* AppGroup.swift */,
+				1495F078B81B00722793D34B /* SharedTaskStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C2CC6C995502C0ABC32F283A /* HaiFattoWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				07EEA8CB76DF6980F8F01BCB /* HaiFattoWidgetBundle.swift */,
+				8F639259D569C65C02485CB1 /* HaiFattoWidgets.entitlements */,
+				E80900DF7E8781B9425A3F64 /* LargeWidget.swift */,
+				40C79AFF07BEEDDD1A9E1923 /* MediumWidget.swift */,
+				2A30EE6D971A92948A5D59A7 /* SmallWidget.swift */,
+				7A768B2416A288802DB699B5 /* ToggleTaskIntent.swift */,
+				CF2E76E96939EB0E13EE274C /* WidgetViews.swift */,
+			);
+			path = HaiFattoWidgets;
+			sourceTree = "<group>";
+		};
+		C94E71919AA399E63C04B8EE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				15ABE5E1ED288B5CDC54F5BC /* HaiFattoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CC13A693E2A71908A4A3C3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1DC9E08C4DF73E53E7660A8 /* HaiFatto.app */,
+				178B6C9C6C6A291A104BAD7A /* HaiFattoWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53E4C89D6A0B145D85B4BBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				608F3264DD52E8F5CAA90F11 /* HaiFattoTask.swift */,
+				605CF6474F8D1A7DEDE8F9FC /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ACCF5283793572AA442AAD7 /* HaiFattoWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C632BB22CEEBB3F1B11790BD /* Build configuration list for PBXNativeTarget "HaiFattoWidgetsExtension" */;
+			buildPhases = (
+				62054D3FA309DADA929A7EB3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaiFattoWidgetsExtension;
+			packageProductDependencies = (
+			);
+			productName = HaiFattoWidgetsExtension;
+			productReference = 178B6C9C6C6A291A104BAD7A /* HaiFattoWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B321CE5A60926383CDB421E8 /* HaiFatto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7999935A2C70FCCAE0A4F2C8 /* Build configuration list for PBXNativeTarget "HaiFatto" */;
+			buildPhases = (
+				53FF3CE22F4A5EFF4BBA68B5 /* Sources */,
+				3E66CD58C1036212AA9B4523 /* Resources */,
+				AD590E3100F6B8FBBA2C5742 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B23C9B0F4A8D915AFF6A979 /* PBXTargetDependency */,
+			);
+			name = HaiFatto;
+			packageProductDependencies = (
+			);
+			productName = HaiFatto;
+			productReference = A1DC9E08C4DF73E53E7660A8 /* HaiFatto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8539CDD217C4546C506A7E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = BA2E7EB25E42FBB6723B5F8C /* Build configuration list for PBXProject "HaiFatto" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				es,
+				it,
+			);
+			mainGroup = 1C060F33FB216842438478B4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CC13A693E2A71908A4A3C3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B321CE5A60926383CDB421E8 /* HaiFatto */,
+				2ACCF5283793572AA442AAD7 /* HaiFattoWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E66CD58C1036212AA9B4523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F85F4F2C53638925D019CFF /* Assets.xcassets in Resources */,
+				FFA2B5EFBDE85398D2341101 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FF3CE22F4A5EFF4BBA68B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD49A1925FE561A235ABBA3 /* AppGroup.swift in Sources */,
+				447804CD9EA2CC461FE0EABC /* CloudKitService.swift in Sources */,
+				32A8DFDCEE131CF0A2538521 /* ConfettiView.swift in Sources */,
+				3AB3B993B8968B6C599BA25C /* HaiFattoApp.swift in Sources */,
+				954D3DCB1B33E97B127FA57D /* HaiFattoTask.swift in Sources */,
+				755299348FF7508133A6033D /* HeatmapView.swift in Sources */,
+				B4EF7A0167E9F955B606472B /* HomeView.swift in Sources */,
+				BAE949AE3AEB9D1C0E11B016 /* IconPickerView.swift in Sources */,
+				C5830CA186209B5DC605E9A0 /* NotificationService.swift in Sources */,
+				9261288149476FCD86C359F3 /* OnboardingView.swift in Sources */,
+				8DEF225C4CC1075BFA362C8F /* SettingsView.swift in Sources */,
+				CB9FCD5524C96186D3CAABDE /* SharedTaskStore.swift in Sources */,
+				FDFF58062A54F87CDA719318 /* StoreKitService.swift in Sources */,
+				5D1BE2D9C38389DDE4EC3961 /* TaskDetailView.swift in Sources */,
+				03C4492EAAFCDA7D58E04A17 /* TaskResetService.swift in Sources */,
+				03E5DB18EE7570255C543F91 /* TaskRowView.swift in Sources */,
+				8CEFE918B68B47985FA8DB4C /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62054D3FA309DADA929A7EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05443DDBB6B7E5B3AB36FE1E /* HaiFattoWidgetBundle.swift in Sources */,
+				A10B53DB41BBE2B65B06E9AA /* LargeWidget.swift in Sources */,
+				2A5F70E948E89AAAFEC87C4C /* MediumWidget.swift in Sources */,
+				F7123DBA77CF30D4867418F6 /* SmallWidget.swift in Sources */,
+				B46065ACB73881E8888BB564 /* ToggleTaskIntent.swift in Sources */,
+				46A4F3681115404ED9CDBBEB /* WidgetViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B23C9B0F4A8D915AFF6A979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ACCF5283793572AA442AAD7 /* HaiFattoWidgetsExtension */;
+			targetProxy = 10933D1E930C19F4D4054A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44FD9296C9CF058538AFC01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		78FE3578006180B1B5246C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HaiFattoWidgets/HaiFattoWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hai fatto? Widgets";
+				INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haifatto.app.widgets;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819E337DFEBF8444246B7372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		88857001B7EF1DB1ACEDB91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HaiFatto/HaiFatto.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_BGTaskSchedulerPermittedIdentifiers = com.haifatto.taskreset;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hai fatto?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos to verify task completion";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save verification photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "fetch remote-notification";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haifatto.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED23468293444E3ACA3B0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HaiFatto/HaiFatto.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_BGTaskSchedulerPermittedIdentifiers = com.haifatto.taskreset;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hai fatto?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos to verify task completion";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save verification photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "fetch remote-notification";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haifatto.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F21878C3EED09DD8E0D1D4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HaiFattoWidgets/HaiFattoWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hai fatto? Widgets";
+				INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haifatto.app.widgets;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7999935A2C70FCCAE0A4F2C8 /* Build configuration list for PBXNativeTarget "HaiFatto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED23468293444E3ACA3B0AC /* Debug */,
+				88857001B7EF1DB1ACEDB91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2E7EB25E42FBB6723B5F8C /* Build configuration list for PBXProject "HaiFatto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FD9296C9CF058538AFC01F /* Debug */,
+				819E337DFEBF8444246B7372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C632BB22CEEBB3F1B11790BD /* Build configuration list for PBXNativeTarget "HaiFattoWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FE3578006180B1B5246C6C /* Debug */,
+				F21878C3EED09DD8E0D1D4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8539CDD217C4546C506A7E6 /* Project object */;
+}
